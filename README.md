@@ -1,0 +1,2 @@
+# terra-farm
+A cozy farming simulator where you use simulated NASA satellite data and an AI helper to practice sustainable agriculture. Grow crops, manage resources, and learn to make data-driven decisions to create a thriving, eco-friendly farm.
