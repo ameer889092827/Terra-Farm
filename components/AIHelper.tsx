@@ -14,7 +14,7 @@ const AIHelper: React.FC<AIHelperProps> = ({ isLoading, onAnalyze, analysis }) =
       <div className="flex gap-4 items-start">
         <div className="text-5xl flex-shrink-0 pt-1">🤖</div>
         <div className="flex-1">
-          <h3 className="text-lg font-semibold text-green-300">AI Assistant Terra</h3>
+          <h3 className="text-lg font-semibold text-green-300">Terra AI</h3>
           <div className="text-sm text-slate-300 mt-2 min-h-[60px]">
             {isLoading ? (
               <div className="flex items-center gap-2">
