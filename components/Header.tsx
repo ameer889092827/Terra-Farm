@@ -56,7 +56,7 @@ const Header: React.FC<HeaderProps> = ({
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-cyan-400 flex items-center gap-3">
           <span className="text-3xl">🛰️</span>
-          <span className="hidden lg:inline">NASA Data Farm</span>
+          <span className="hidden lg:inline">Terra</span>
         </h1>
         <div className="flex items-center gap-2 md:gap-3">
           <Stat icon="💰" label="$" value={gameState.money} />
