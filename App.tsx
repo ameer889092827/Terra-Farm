@@ -416,7 +416,7 @@ const App: React.FC = () => {
   useEffect(() => {
     if (!gameState || !nasaData) return;
     const scenarioTimer = setInterval(() => {
-      if (Math.random() < 0.20) { // 20% chance every 30 seconds (increased from 5%)
+      if (Math.random() < 0.50) { // 20% chance every 30 seconds (increased from 5%)
         const scenarios: ('heat_wave' | 'sensor_malfunction' | 'pest_outbreak')[] = ['heat_wave', 'sensor_malfunction', 'pest_outbreak'];
         const randomScenario = scenarios[Math.floor(Math.random() * scenarios.length)];
         setCurrentScenario(randomScenario);
